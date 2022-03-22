@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-function Login() {
+
+function NewEvent() {
   return (
     <>
         <section className="container flex-center">
-            <header><h2>Login</h2></header>
+            <header><h2>Add New</h2></header>
             <main className="form-wrapper">
                 <form onSubmit={() => {}}>
                     <div className="form-control">
@@ -20,10 +20,9 @@ function Login() {
                     </div>
                 </form>
             </main>
-            <footer><p>Don&apos;t have an account? <Link to="/">Register</Link></p></footer>
         </section>
     </>
   )
 }
 
-export default Login
+export default NewEvent
